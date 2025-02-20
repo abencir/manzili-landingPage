@@ -6,28 +6,76 @@ body {
     background-image: url(backgroundImg.jpg);
     height: 80vh;
     background-size: cover;
+ 
   
 
     .left-nav {
       width:34vw;
-      background-color: red;
+      border: solid 2px red;
       display: inline-block;
+      ul{
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        li{
+          
+          display: inline;
+          margin-right: 40px;
+
+        }
+      }
     }
     
     .logo {
       width:30vw;
       display: inline-block;
+      border: 2px solid black;
+      margin-top: 20px;
     }
     
     .right-nav {
-      
-      background-color: rgb(58, 9, 122);
       width:34vw;
       display: inline-block;
+      ul{
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        li{
+          
+          display: inline;
+          margin-left: 40px;
+
+        }
+      }
     }
+  }
+  .button-div{
+    display: flex;
+    justify-content: center;
+    button{
+      font-size: 25px;
+      margin-top: 70px;
+      background-color: black;
+      color: white;
+      width: 250px;
+      height: 70px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
   }
 }
 
-.left-nav {
-  background-color: aqua;
+svg{
+  margin-left:4px;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 250;
+  
 }
