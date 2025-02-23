@@ -114,18 +114,27 @@ ul{
 
 main{
   .h2-title{
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-right: 50px;
     
     h2{
-      margin-top: 10px;
-      margin-bottom: 20px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      color: #222222;
+      font-family: "futura", Sans-serif;
+      font-size: 35px;
+      font-weight: 500;
+      font-style: italic;
     }
     p{
-      margin: 0%;
+      margin: 0px;
+      padding-bottom: 30px;
+      color: #9BA6AE;
+      font-family: "Montserrat", Sans-serif;
+      font-size: 21px;
+      font-weight: 400;
     }
 
   }
@@ -135,12 +144,103 @@ main{
     justify-content: center;
     align-items: center;
     
-    img{
-      padding:0px 80px 0px 80px;
+    .youga{
+      background-image: url(assets/Yoga.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 350px;
+      width: 500px;
+      position: relative;
+      right: 55px;
+      div{
+        width: 370px;
+        height: 230px;
+        background-color: rgba(245, 245, 245, 0.655);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      }
+    }
+    .surf{
+      background-image: url(assets/surf.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 350px;
+      width: 500px;
+      position: relative;
+      left: 55px;
+      div{
+        width: 370px;
+        height: 230px;
+        background-color: rgba(245, 245, 245, 0.655);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .room{
+      background-image: url(assets/room.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 350px;
+      width: 500px;
+      position: relative;
+      left: 55px;
+      div{
+        width: 370px;
+        height: 230px;
+        background-color: rgba(245, 245, 245, 0.655);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    }
+    .surfer{
+      background-image: url(assets/surfer.jpg);
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 350px;
+      width: 500px;
+      position: relative;
+      right: 55px;
+      div{
+        width: 370px;
+        height: 230px;
+        background-color: rgba(245, 245, 245, 0.655);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
+
+.btn{
+  background-color: black;
+  position: relative;
+  height: 40px;
+  width: 110px;
+  top:50px;
+  border: none;
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 12px;
+    font-weight: 900;
+
   
+}
 
-  }
 
-
+}
