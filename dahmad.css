@@ -83,6 +83,8 @@ body{
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-weight: 600;
       font-size: 20px;
+      position: relative;
+      left:8px;
       
     }
   }
@@ -156,14 +158,7 @@ main{
       width: 500px;
       position: relative;
       right: 55px;
-      div{
-        width: 370px;
-        height: 300px;
-        background-color: rgba(245, 245, 245, 0.655);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+
 
       }
     }
@@ -177,14 +172,7 @@ main{
       width: 500px;
       position: relative;
       left: 55px;
-      div{
-        width: 370px;
-        height: 300px;
-        background-color: rgba(245, 245, 245, 0.655);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+
     }
     .room{
       background-image: url(assets/room.jpg);
@@ -196,14 +184,7 @@ main{
       width: 500px;
       position: relative;
       left: 55px;
-      div{
-        width: 370px;
-        height: 300px;
-        background-color: rgba(245, 245, 245, 0.655);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+
       
     }
     .surfer{
@@ -216,24 +197,33 @@ main{
       width: 500px;
       position: relative;
       right: 55px;
-      div{
-        width: 370px;
-        height: 300px;
-        background-color: rgba(245, 245, 245, 0.655);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
     }
   }
 
+.whatsapp-icon{
+  width: 67px;
+  position: fixed;
+  right: 30px;
+  bottom:40px;
+
+}
+
+#div-bg{
+    width: 370px;
+    height: 300px;
+    background-color: rgba(245, 245, 245, 0.655);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .btn{
   background-color: black;
   position: relative;
   height: 40px;
   width: 110px;
-  top:65px;
   border: none;
+  top: 35px;
   a{
     text-decoration: none;
     color: white;
@@ -243,9 +233,29 @@ main{
     font-family: "Exo 2", serif;
     font-optical-sizing: auto;
     font-style: normal
+    }
+  }
+  h3{
+    font-family: "futura", Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    text-align: center;
+  }
+  .long-h3{
+    margin: 0;
+    width: 70%;
+    font-family: "futura", Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
 
-  
-}
-
-
-}
+  }
